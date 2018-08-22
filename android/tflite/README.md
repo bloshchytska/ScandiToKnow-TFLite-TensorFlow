@@ -1,36 +1,40 @@
-# TF Lite Android App
+<img src="https://github.com/bloshchytska/ScandiToKnow/raw/master/app/src/main/res/drawable/ic_launcher_scandi.png" width="100" height="100"/>
 
-## Building from Source with Bazel
+# ScandiToKnow
+Art and Multimedia Project at LMU Munich
 
-1. Follow the [Bazel steps for the TF Demo App](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/android#bazel):
+## Story
 
-  1. [Install Bazel and Android Prerequisites](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/android#install-bazel-and-android-prerequisites).
-     It's easiest with Android Studio.
+### Goal
+To train a simple classifier to classify images of gods, show the Scandi-Story at the end
 
-      - You'll need at least SDK version 23.
-      - Bazel requires Android Build Tools `26.0.1` or higher.
-      - You also need to install the Android Support Repository, available
-        through Android Studio under `Android SDK Manager -> SDK Tools ->
-        Android Support Repository`.
+### Methods used
+* tensorflow
 
-  2. [Edit your `WORKSPACE`](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/android#edit-workspace)
-     to add SDK and NDK targets.
+### Flow
 
-      - Make sure the `api_level` in `WORKSPACE` is set to an SDK version that
-        you have installed.
-      - By default, Android Studio will install the SDK to `~/Android/Sdk` and
-        the NDK to `~/Android/Sdk/ndk-bundle`.
+1. Recognise a one image of scandinavian gods.
+2. Display the result in the form of the image found and the text describing it.
 
-2. Build the app with Bazel. The demo needs C++11:
+## Authors
 
-  ```shell
-  bazel build -c opt --cxxopt='--std=c++11' \
-    //tensorflow/contrib/lite/java/demo/app/src/main:TfLiteCameraDemo
-  ```
+* **Polina Panchenkova** - *Project idea, story, illustration, icon and visual design, content* - [instagram](https://www.instagram.com/polina_panchenkova/)
+* **Anastasiia Bloshchytska** - *App idea, software development, UX/UI and visual design* - [github](https://github.com/bloshchytska)
 
-3. Install the demo on a
-   [debug-enabled device](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/android#install):
+## Tools used
 
-  ```shell
-  adb install bazel-bin/tensorflow/contrib/lite/java/demo/app/src/main/TfLiteCameraDemo.apk
-  ```
+* [Android Studio 3.1.4](https://developer.android.com/)
+
+## License
+
+* All artworks (illustrations) are licensed under the [Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 License](https://creativecommons.org/licenses/by-nc-nd/3.0/)
+* The project code is licensed under the [MIT License](https://opensource.org/licenses/MIT)
+
+## Links
+
+* [codelabs.developers.google.com/tensorflow-for-poets-2-tflite](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets-2-tflite/#0)
+*
+[codelabs.developers.google.com/tensorflow-for-poets](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#1)
+
+### Fonts
+* [Slimamif by DmitriZdorov](https://www.fonts-online.ru/font/Slimamif)
