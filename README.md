@@ -6,7 +6,7 @@ Art and Multimedia Project at LMU Munich
 ## Story
 
 ### Goal
-To train a simple classifier to classify images of gods, show the Scandi-Story at the end
+To train (and retrain) a simple classifier to classify images of gods, show the Scandi-Story at the end
 
 ### Methods used
 * tensorflow
