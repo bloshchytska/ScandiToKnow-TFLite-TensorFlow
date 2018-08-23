@@ -5,7 +5,6 @@ Art and Multimedia Project at LMU Munich
 
 ## Overview
 
-This repo contains code of the <a href="https://codelabs.developers.google.com/codelabs/tensorflow-for-poets-2">TensorFlow for poets 2</a> and <a href="https://codelabs.developers.google.com/codelabs/tensorflow-for-poets-2-tflite">TensorFlow for Poets 2: TFLite Android</a> series of codelabs.
 The first-test version of the ScandiToKnow project is <a href="https://github.com/bloshchytska/ScandiToKnow">here</a>.
 
 
