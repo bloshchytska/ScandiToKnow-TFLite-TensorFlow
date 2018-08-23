@@ -1,4 +1,4 @@
-<img src="https://github.com/bloshchytska/ScandiToKnow/raw/master/app/src/main/res/drawable/ic_launcher_scandi.png" width="100" height="100"/>
+<img src="https://raw.githubusercontent.com/bloshchytska/ScandiToKnow-TFLite-TensorFlow/master/android/tflite/app/src/main/res/drawable-xxhdpi/ic_launcher.png" width="100" height="100"/>
 
 # ScandiToKnow
 Art and Multimedia Project at LMU Munich
