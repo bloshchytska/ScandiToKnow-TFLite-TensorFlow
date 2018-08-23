@@ -1096,6 +1096,10 @@
         "source": "/Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/5948aa70de42dbdf8f6ad7059a721913/res/drawable/abc_switch_thumb_material.xml"
     },
     {
+        "merged": "/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/build/intermediates/res/merged/debug/font_slimamif_res.xml.flat",
+        "source": "/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/res/font/slimamif_res.xml"
+    },
+    {
         "merged": "/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "/Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/5948aa70de42dbdf8f6ad7059a721913/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
@@ -1158,6 +1162,10 @@
     {
         "merged": "/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/build/intermediates/res/merged/debug/layout_select_dialog_multichoice_material.xml.flat",
         "source": "/Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/5948aa70de42dbdf8f6ad7059a721913/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/build/intermediates/res/merged/debug/font_slimamif.ttf.flat",
+        "source": "/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/res/font/slimamif.ttf"
     },
     {
         "merged": "/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/build/intermediates/res/merged/debug/color_abc_btn_colored_borderless_text_material.xml.flat",
