@@ -4,8 +4,7 @@
 Art and Multimedia Project at LMU Munich
 
 ## Overview
-
-The first-test version of the ScandiToKnow project is <a href="https://github.com/bloshchytska/ScandiToKnow">here</a>.
+This repo contains code of the <a href="https://codelabs.developers.google.com/codelabs/tensorflow-for-poets-2">TensorFlow for poets 2</a> series of codelabs. The first-test version of the ScandiToKnow project is <a href="https://github.com/bloshchytska/ScandiToKnow">here</a>.
 
 
 ### Goal
