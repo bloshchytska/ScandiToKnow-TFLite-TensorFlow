@@ -211,6 +211,7 @@ public class Camera2BasicFragment extends Fragment
           new Runnable() {
             @Override
             public void run() {
+              Log.d(text, "bu");
               textView.setText(text);
             }
           });
