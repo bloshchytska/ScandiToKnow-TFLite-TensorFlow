@@ -16,15 +16,20 @@ limitations under the License.
 package com.example.android.tflitecamerademo;
 
 import android.app.Activity;
+import android.graphics.Typeface;
 import android.os.Bundle;
 
 /** Main {@code Activity} class for the Camera app. */
 public class CameraActivity extends Activity {
 
+  public static Typeface sCustomFont;
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_camera);
+
+    sCustomFont = Typeface.createFromAsset(getAssets(), "font/main_font.ttf");
+
     if (null == savedInstanceState) {
       getFragmentManager()
           .beginTransaction()

@@ -65,6 +65,8 @@ import java.util.List;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 
+import static com.example.android.tflitecamerademo.CameraActivity.sCustomFont;
+
 /** Basic fragments for the Camera. */
 public class Camera2BasicFragment extends Fragment
     implements FragmentCompat.OnRequestPermissionsResultCallback {
@@ -289,6 +291,7 @@ public class Camera2BasicFragment extends Fragment
   public void onViewCreated(final View view, Bundle savedInstanceState) {
     textureView = (AutoFitTextureView) view.findViewById(R.id.texture);
     textView = (TextView) view.findViewById(R.id.text);
+    textView.setTypeface(sCustomFont);
   }
 
   /** Load the model and labels. */
