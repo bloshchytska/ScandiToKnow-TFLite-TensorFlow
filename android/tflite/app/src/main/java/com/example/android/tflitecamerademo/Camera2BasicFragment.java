@@ -31,6 +31,7 @@ import android.graphics.Matrix;
 import android.graphics.Point;
 import android.graphics.RectF;
 import android.graphics.SurfaceTexture;
+import android.graphics.Typeface;
 import android.hardware.camera2.CameraAccessException;
 import android.hardware.camera2.CameraCaptureSession;
 import android.hardware.camera2.CameraCharacteristics;
@@ -45,6 +46,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.support.annotation.NonNull;
+import android.support.constraint.ConstraintLayout;
 import android.support.v13.app.FragmentCompat;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
@@ -54,6 +56,9 @@ import android.view.Surface;
 import android.view.TextureView;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 import java.io.IOException;
@@ -84,6 +89,10 @@ public class Camera2BasicFragment extends Fragment
   private boolean runClassifier = false;
   private boolean checkedPermissions = false;
   private TextView textView;
+  private TextView progressBarTextView;
+  private ConstraintLayout progressBarLayout;
+  private ConstraintLayout hintLayout;
+  private Button buttonView;
   private ImageClassifier classifier;
 
   /** Max preview width that is guaranteed by Camera2 API */
@@ -91,7 +100,6 @@ public class Camera2BasicFragment extends Fragment
 
   /** Max preview height that is guaranteed by Camera2 API */
   private static final int MAX_PREVIEW_HEIGHT = 1080;
-
   /**
    * {@link TextureView.SurfaceTextureListener} handles several lifecycle events on a {@link
    * TextureView}.
@@ -211,8 +219,45 @@ public class Camera2BasicFragment extends Fragment
           new Runnable() {
             @Override
             public void run() {
-              Log.d(text, "bu");
-              textView.setText(text);
+
+
+                if (classifier == null || getActivity() == null || cameraDevice == null) {
+                    hintLayout.setVisibility(View.VISIBLE);
+
+                    buttonView.setVisibility(View.GONE);
+                    textView.setVisibility(View.VISIBLE);
+                    textView.setTextColor(getResources().getColor(R.color.error_color));
+                    textView.setTextSize(getResources().getDimension(R.dimen.textSizeSmall));
+                    textView.setText("Uninitialized Classifier or invalid context.");
+                }
+
+                if(ImageClassifier.sTopLabelMatchPercent < 0.2f) {
+                    progressBarLayout.setVisibility(View.GONE);
+                } else {
+                    progressBarLayout.setVisibility(View.VISIBLE);
+                    hintLayout.setVisibility(View.GONE);
+
+                    progressBarTextView.setText("Richte die Handy-Camery auf einen Gott.");
+
+                    if(ImageClassifier.sTopLabelMatchPercent > 0.4f) {
+                        progressBarTextView.setText("...die passende Geschichte wird gesucht.");
+                    }
+                    if(ImageClassifier.sTopLabelMatchPercent > 0.85f) {
+                        progressBarTextView.setText("Kuck mal, wer da gleich erscheint...");
+                    }
+                    if(ImageClassifier.sTopLabelMatchPercent > 0.9f) {
+                        progressBarLayout.setVisibility(View.GONE);
+                        hintLayout.setVisibility(View.VISIBLE);
+                        buttonView.setVisibility(View.VISIBLE);
+                        textView.setTextSize(getResources().getDimension(R.dimen.textSizeMiddle));
+                        textView.setTextColor(getResources().getColor(R.color.info_color));
+                        textView.setTextSize(getResources().getDimension(R.dimen.textSizeMiddle));
+                        textView.setText(ImageClassifier.sTopLabelName);
+
+                        String newText = ImageClassifier.sTopLabelName + "-Geschichte " + "öffnen";
+                        buttonView.setText(newText);
+                    }
+                }
             }
           });
     }
@@ -290,9 +335,14 @@ public class Camera2BasicFragment extends Fragment
   /** Connect the buttons to their event handler. */
   @Override
   public void onViewCreated(final View view, Bundle savedInstanceState) {
+    progressBarTextView = (TextView) view.findViewById(R.id.progressBarTextView);
+    progressBarLayout = (ConstraintLayout) view.findViewById(R.id.progressBarLayout);
+    hintLayout = (ConstraintLayout) view.findViewById(R.id.hintLayout);
     textureView = (AutoFitTextureView) view.findViewById(R.id.texture);
     textView = (TextView) view.findViewById(R.id.text);
-    textView.setTypeface(sCustomFont);
+    buttonView = (Button) view.findViewById(R.id.button);
+    textView.setTypeface(sCustomFont, Typeface.BOLD);
+    progressBarTextView.setTypeface(sCustomFont, Typeface.BOLD);
   }
 
   /** Load the model and labels. */
@@ -329,6 +379,7 @@ public class Camera2BasicFragment extends Fragment
     stopBackgroundThread();
     super.onPause();
   }
+
 
   @Override
   public void onDestroy() {
@@ -662,6 +713,7 @@ public class Camera2BasicFragment extends Fragment
       showToast("Uninitialized Classifier or invalid context.");
       return;
     }
+
     Bitmap bitmap =
         textureView.getBitmap(ImageClassifier.DIM_IMG_SIZE_X, ImageClassifier.DIM_IMG_SIZE_Y);
     String textToShow = classifier.classifyFrame(bitmap);

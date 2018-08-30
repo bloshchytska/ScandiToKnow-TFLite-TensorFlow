@@ -28,6 +28,7 @@ import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.MappedByteBuffer;
 import java.nio.channels.FileChannel;
+import java.text.DecimalFormat;
 import java.util.AbstractMap;
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -82,6 +83,9 @@ public class ImageClassifier {
   private static final int FILTER_STAGES = 3;
   private static final float FILTER_FACTOR = 0.4f;
 
+  public static String sTopLabelName = "";
+  public static Float sTopLabelMatchPercent = 0.0f;
+
   private PriorityQueue<Map.Entry<String, Float>> sortedLabels =
       new PriorityQueue<>(
           RESULTS_TO_SHOW,
@@ -123,7 +127,8 @@ public class ImageClassifier {
 
     // print the results
     String textToShow = printTopKLabels();
-    textToShow = Long.toString(endTime - startTime) + "ms" + textToShow;
+    //with time
+    // textToShow = Long.toString(endTime - startTime) + "ms" + textToShow;
     return textToShow;
   }
 
@@ -215,7 +220,16 @@ public class ImageClassifier {
     final int size = sortedLabels.size();
     for (int i = 0; i < size; ++i) {
       Map.Entry<String, Float> label = sortedLabels.poll();
-      textToShow = String.format("\n%s: %4.2f",label.getKey(),label.getValue()) + textToShow;
+      String capsFirstKeyLetter = label.getKey().substring(0, 1).toUpperCase() + label.getKey().substring(1);
+
+      DecimalFormat df = new DecimalFormat("#%");
+      String valueToPercent = df.format(label.getValue());
+
+      if (i == (size-1)) {
+        sTopLabelName = capsFirstKeyLetter;
+        sTopLabelMatchPercent = label.getValue();
+      }
+      textToShow = String.format("%s: %s\n", capsFirstKeyLetter, valueToPercent) + textToShow;
     }
     return textToShow;
   }

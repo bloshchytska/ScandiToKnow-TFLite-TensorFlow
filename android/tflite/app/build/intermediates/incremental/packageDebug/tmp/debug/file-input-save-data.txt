@@ -1,9 +1,9 @@
 #Internal package file, do not edit.
-#Wed Aug 29 07:23:55 CEST 2018
+#Wed Aug 29 21:35:38 CEST 2018
 4.path=lib/x86/libtensorflowlite_jni.so
 13.baseType=DIRECTORY
 8.set=DEX
-6.path=classes.dex
+6.path=lib/x86_64/libtensorflowlite_jni.so
 0.baseType=DIRECTORY
 10.path=classes.dex
 5.baseType=DIRECTORY
@@ -12,7 +12,7 @@
 12.path=retrained_labels.txt
 3.base=/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/build/intermediates/transforms/stripDebugSymbol/debug/0
 4.set=NATIVE_RESOURCE
-5.base=/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/build/intermediates/transforms/stripDebugSymbol/debug/0
+5.base=/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/build/intermediates/transforms/dexMerger/debug/31
 7.base=/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/build/intermediates/transforms/dexMerger/debug/35
 11.base=/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/build/intermediates/transforms/dexMerger/debug/34
 9.base=/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/build/intermediates/transforms/dexMerger/debug/33
@@ -29,18 +29,18 @@
 7.baseType=DIRECTORY
 3.path=lib/arm64-v8a/libtensorflowlite_jni.so
 10.set=DEX
-5.path=lib/x86_64/libtensorflowlite_jni.so
+5.path=classes.dex
 0.base=/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/build/intermediates/assets/debug
 7.path=classes.dex
 11.path=classes.dex
 9.path=classes.dex
-6.set=DEX
+6.set=NATIVE_RESOURCE
 2.base=/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/build/intermediates/assets/debug
 13.path=lib/armeabi-v7a/libtensorflowlite_jni.so
 11.baseType=DIRECTORY
 4.base=/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/build/intermediates/transforms/stripDebugSymbol/debug/0
 3.baseType=DIRECTORY
-6.base=/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/build/intermediates/transforms/dexMerger/debug/31
+6.base=/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/build/intermediates/transforms/stripDebugSymbol/debug/0
 10.base=/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/build/intermediates/transforms/dexMerger/debug/30
 13.set=NATIVE_RESOURCE
 8.base=/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/build/intermediates/transforms/dexMerger/debug/32
@@ -51,7 +51,7 @@
 count=14
 12.baseType=DIRECTORY
 4.baseType=DIRECTORY
-5.set=NATIVE_RESOURCE
+5.set=DEX
 9.baseType=DIRECTORY
 0.path=BUILD
 12.set=ASSET
