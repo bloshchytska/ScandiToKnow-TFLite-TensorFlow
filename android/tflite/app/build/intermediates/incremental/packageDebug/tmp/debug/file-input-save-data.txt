@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Aug 29 21:35:38 CEST 2018
+#Thu Aug 30 17:13:16 CEST 2018
 4.path=lib/x86/libtensorflowlite_jni.so
 13.baseType=DIRECTORY
 8.set=DEX

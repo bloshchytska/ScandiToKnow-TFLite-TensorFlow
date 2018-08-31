@@ -22,6 +22,7 @@ import android.app.DialogFragment;
 import android.app.Fragment;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
@@ -343,6 +344,12 @@ public class Camera2BasicFragment extends Fragment
     buttonView = (Button) view.findViewById(R.id.button);
     textView.setTypeface(sCustomFont, Typeface.BOLD);
     progressBarTextView.setTypeface(sCustomFont, Typeface.BOLD);
+
+    buttonView.setOnClickListener(new View.OnClickListener() {
+      public void onClick(View v) {
+        //Intent intent = new Intent(this, )
+      }
+    });
   }
 
   /** Load the model and labels. */
