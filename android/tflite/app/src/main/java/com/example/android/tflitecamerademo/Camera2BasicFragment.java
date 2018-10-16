@@ -348,7 +348,9 @@ public class Camera2BasicFragment extends Fragment
 
     buttonView.setOnClickListener(new View.OnClickListener() {
       public void onClick(View v) {
+        String storyName = ImageClassifier.sTopLabelName.toLowerCase();
         Intent intent = new Intent(getActivity(), ResultActivity.class);
+        intent.putExtra("STORY_NAME", storyName);
         startActivity(intent);
       }
     });

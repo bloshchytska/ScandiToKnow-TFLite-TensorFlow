@@ -95,8 +95,8 @@ public final class R {
         public static final int status_bar_latest_event_content = 0x7f0900a3;
         public static final int text = 0x7f0900a7;
         public static final int text2 = 0x7f0900a8;
-        public static final int time = 0x7f0900af;
-        public static final int title = 0x7f0900b0;
+        public static final int time = 0x7f0900b1;
+        public static final int title = 0x7f0900b2;
     }
     public static final class integer {
         public static final int cancel_button_image_alpha = 0x7f0a0004;
