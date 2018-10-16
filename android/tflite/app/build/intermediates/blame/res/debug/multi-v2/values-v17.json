@@ -4,7 +4,7 @@
             "outputFile": "/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml",
             "map": [
                 {
-                    "source": "/Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/5948aa70de42dbdf8f6ad7059a721913/res/values-v17/values-v17.xml",
+                    "source": "/Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/d8996dd75d3335c1347c625e7eb37cdf/res/values-v17/values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,26,29,32,35,39,42,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",

@@ -21,6 +21,16 @@
                     }
                 },
                 {
+                    "source": "/Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/d8996dd75d3335c1347c625e7eb37cdf/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    }
+                },
+                {
                     "source": "/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/res/values-sw600dp/template-styles.xml",
                     "from": {
                         "startLines": "18",
@@ -40,7 +50,7 @@
                     }
                 },
                 {
-                    "source": "/Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/design-25.2.0.aar/a73fa55cb0886c82ba10d5e59d9ebefb/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2292ba54375be921019de803e2a59311/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -56,16 +66,6 @@
                         "endLines": "10,11,12,13,14,15,16,17,20,24",
                         "endColumns": "59,69,70,71,57,57,105,63,62,12",
                         "endOffsets": "666,736,807,879,937,995,1101,1165,1364,1546"
-                    }
-                },
-                {
-                    "source": "/Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/5948aa70de42dbdf8f6ad7059a721913/res/values-sw600dp-v13/values-sw600dp-v13.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,124,193,263,337,413,472,543",
-                        "endColumns": "68,68,69,73,75,58,70,67",
-                        "endOffsets": "119,188,258,332,408,467,538,606"
                     }
                 }
             ]

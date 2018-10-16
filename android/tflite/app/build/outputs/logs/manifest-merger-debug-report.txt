@@ -1,41 +1,88 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:18:1-42:12
-INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:18:1-42:12
-INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:18:1-42:12
-INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:18:1-42:12
-MERGED from [com.android.support:design:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/design-25.2.0.aar/a73fa55cb0886c82ba10d5e59d9ebefb/AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/5948aa70de42dbdf8f6ad7059a721913/AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/4255486d55cd174f8d067df52989fb11/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-v13:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-v13-25.2.0.aar/d483e0c92bb9f4cda57dad52aad59dc6/AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.2.0.aar/c28a030c129a0ea094e5206c0155d223/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.2.0.aar/d80c78b5b1185492d33ecfd9a2cbccd2/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:recyclerview-v7:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.2.0.aar/584feab4ed4aeb8a70681386891636cb/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/transition-25.2.0.aar/8623c2548218d65135d5f1c0d34daef0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:support-v4:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/0be3afb13672888f5d0abd838f9c1134/AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-fragment:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/e6ed0641e2b161ca533ca6da3ca5fa3e/AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-media-compat:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/336b32966e4640787c09c1e14cc22ab8/AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-core-utils:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/9454a3804a1043c99b01ae81d012270e/AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-core-ui:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/cbea70536b9702705b59ed2d8b1fb1c3/AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:support-compat:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/f848a66986ca2552ca41d3ecf4a64fb8/AndroidManifest.xml:17:1-27:12
+ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:16:1-47:12
+INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:16:1-47:12
+INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:16:1-47:12
+INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:16:1-47:12
+MERGED from [com.android.support:design:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2292ba54375be921019de803e2a59311/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/d8996dd75d3335c1347c625e7eb37cdf/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/45727b2f29706ad066fd0dcaccc7af0a/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v13:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/17c7ddef111ed99f6f14a9dd087e3cd1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/7a3b530233939157fc8fdfad71e174db/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/95eb02918052511ec79183a7979b437a/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/572cb2f191e8be33fdbd410742df3c46/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/716989cf379f147fb18a34ecab880005/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/6de0c85ad7affbda17ba9375e20b55ab/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d149d112f5a9eec26ef9d26212bd13d1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/da6e62774c33c12e1989ca40d2daf007/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/399fa4bc641180e552270b0c68a42b23/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/723f110933be34ce5e9d2d06edb2bbde/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bfdbc42dfecf378ae9d99ee37674dc68/AndroidManifest.xml:17:1-31:12
 MERGED from [org.tensorflow:tensorflow-lite:1.10.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.10.0.aar/da81a790779ffd2d39be41016c2b167d/AndroidManifest.xml:2:1-6:12
-INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:18:1-42:12
-INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:18:1-42:12
-INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:18:1-42:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bc9d581fa0af5f7bc420df9c8451de96/AndroidManifest.xml:17:1-30:12
+INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:16:1-47:12
+INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:16:1-47:12
+INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:16:1-47:12
 	package
-		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:19:5-51
+		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:17:5-51
 		INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml
-		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:18:1-42:12
+		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:16:1-47:12
 		INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml
-		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:18:1-42:12
+		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:16:1-47:12
 		INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:18:11-69
+		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:16:11-69
+uses-sdk
+ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:19:5-44
+INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:19:5-44
+INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:19:5-44
+MERGED from [com.android.support:design:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2292ba54375be921019de803e2a59311/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2292ba54375be921019de803e2a59311/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/d8996dd75d3335c1347c625e7eb37cdf/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/d8996dd75d3335c1347c625e7eb37cdf/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/45727b2f29706ad066fd0dcaccc7af0a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/45727b2f29706ad066fd0dcaccc7af0a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v13:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/17c7ddef111ed99f6f14a9dd087e3cd1/AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:support-v13:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/17c7ddef111ed99f6f14a9dd087e3cd1/AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/7a3b530233939157fc8fdfad71e174db/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/7a3b530233939157fc8fdfad71e174db/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/95eb02918052511ec79183a7979b437a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/95eb02918052511ec79183a7979b437a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/572cb2f191e8be33fdbd410742df3c46/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/572cb2f191e8be33fdbd410742df3c46/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/716989cf379f147fb18a34ecab880005/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/716989cf379f147fb18a34ecab880005/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/6de0c85ad7affbda17ba9375e20b55ab/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/6de0c85ad7affbda17ba9375e20b55ab/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d149d112f5a9eec26ef9d26212bd13d1/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d149d112f5a9eec26ef9d26212bd13d1/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/da6e62774c33c12e1989ca40d2daf007/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/da6e62774c33c12e1989ca40d2daf007/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/399fa4bc641180e552270b0c68a42b23/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/399fa4bc641180e552270b0c68a42b23/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/723f110933be34ce5e9d2d06edb2bbde/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/723f110933be34ce5e9d2d06edb2bbde/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bfdbc42dfecf378ae9d99ee37674dc68/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bfdbc42dfecf378ae9d99ee37674dc68/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bc9d581fa0af5f7bc420df9c8451de96/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bc9d581fa0af5f7bc420df9c8451de96/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:19:5-44
+INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:19:5-44
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2292ba54375be921019de803e2a59311/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml
+		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:19:5-44
+		INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:19:15-41
+		INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.CAMERA
 ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:21:5-65
 	android:name
@@ -48,107 +95,113 @@ uses-feature#android.hardware.camera.autofocus
 ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:24:5-70
 	android:name
 		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:24:19-67
-uses-sdk
-ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:26:5-44
-INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:26:5-44
-INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:26:5-44
-MERGED from [com.android.support:design:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/design-25.2.0.aar/a73fa55cb0886c82ba10d5e59d9ebefb/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/design-25.2.0.aar/a73fa55cb0886c82ba10d5e59d9ebefb/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/5948aa70de42dbdf8f6ad7059a721913/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/5948aa70de42dbdf8f6ad7059a721913/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/4255486d55cd174f8d067df52989fb11/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/4255486d55cd174f8d067df52989fb11/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v13:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-v13-25.2.0.aar/d483e0c92bb9f4cda57dad52aad59dc6/AndroidManifest.xml:21:5-23:55
-MERGED from [com.android.support:support-v13:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-v13-25.2.0.aar/d483e0c92bb9f4cda57dad52aad59dc6/AndroidManifest.xml:21:5-23:55
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.2.0.aar/c28a030c129a0ea094e5206c0155d223/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.2.0.aar/c28a030c129a0ea094e5206c0155d223/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.2.0.aar/d80c78b5b1185492d33ecfd9a2cbccd2/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.2.0.aar/d80c78b5b1185492d33ecfd9a2cbccd2/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:recyclerview-v7:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.2.0.aar/584feab4ed4aeb8a70681386891636cb/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.2.0.aar/584feab4ed4aeb8a70681386891636cb/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/transition-25.2.0.aar/8623c2548218d65135d5f1c0d34daef0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/transition-25.2.0.aar/8623c2548218d65135d5f1c0d34daef0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/0be3afb13672888f5d0abd838f9c1134/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/0be3afb13672888f5d0abd838f9c1134/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/e6ed0641e2b161ca533ca6da3ca5fa3e/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/e6ed0641e2b161ca533ca6da3ca5fa3e/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/336b32966e4640787c09c1e14cc22ab8/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/336b32966e4640787c09c1e14cc22ab8/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/9454a3804a1043c99b01ae81d012270e/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/9454a3804a1043c99b01ae81d012270e/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/cbea70536b9702705b59ed2d8b1fb1c3/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/cbea70536b9702705b59ed2d8b1fb1c3/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/f848a66986ca2552ca41d3ecf4a64fb8/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/f848a66986ca2552ca41d3ecf4a64fb8/AndroidManifest.xml:21:5-23:58
-INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:26:5-44
-INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:26:5-44
-	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/design-25.2.0.aar/a73fa55cb0886c82ba10d5e59d9ebefb/AndroidManifest.xml:23:9-59
-	android:targetSdkVersion
-		INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml
-		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:26:5-44
-		INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml
-	android:minSdkVersion
-		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:26:15-41
-		INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml
-application
-ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:28:5-40:19
-MERGED from [com.android.support:design:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/design-25.2.0.aar/a73fa55cb0886c82ba10d5e59d9ebefb/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:design:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/design-25.2.0.aar/a73fa55cb0886c82ba10d5e59d9ebefb/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/5948aa70de42dbdf8f6ad7059a721913/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/5948aa70de42dbdf8f6ad7059a721913/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/4255486d55cd174f8d067df52989fb11/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/4255486d55cd174f8d067df52989fb11/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-v13:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-v13-25.2.0.aar/d483e0c92bb9f4cda57dad52aad59dc6/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v13:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-v13-25.2.0.aar/d483e0c92bb9f4cda57dad52aad59dc6/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.2.0.aar/c28a030c129a0ea094e5206c0155d223/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.2.0.aar/c28a030c129a0ea094e5206c0155d223/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.2.0.aar/d80c78b5b1185492d33ecfd9a2cbccd2/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.2.0.aar/d80c78b5b1185492d33ecfd9a2cbccd2/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:transition:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/transition-25.2.0.aar/8623c2548218d65135d5f1c0d34daef0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:transition:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/transition-25.2.0.aar/8623c2548218d65135d5f1c0d34daef0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/0be3afb13672888f5d0abd838f9c1134/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/0be3afb13672888f5d0abd838f9c1134/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/e6ed0641e2b161ca533ca6da3ca5fa3e/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/e6ed0641e2b161ca533ca6da3ca5fa3e/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/336b32966e4640787c09c1e14cc22ab8/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/336b32966e4640787c09c1e14cc22ab8/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/9454a3804a1043c99b01ae81d012270e/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/9454a3804a1043c99b01ae81d012270e/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/cbea70536b9702705b59ed2d8b1fb1c3/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/cbea70536b9702705b59ed2d8b1fb1c3/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/f848a66986ca2552ca41d3ecf4a64fb8/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.2.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/f848a66986ca2552ca41d3ecf4a64fb8/AndroidManifest.xml:25:5-20
-MERGED from [org.tensorflow:tensorflow-lite:1.10.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.10.0.aar/da81a790779ffd2d39be41016c2b167d/AndroidManifest.xml:4:5-5:19
-MERGED from [org.tensorflow:tensorflow-lite:1.10.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.10.0.aar/da81a790779ffd2d39be41016c2b167d/AndroidManifest.xml:4:5-5:19
-	android:label
-		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:29:9-41
-	android:icon
-		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:30:9-45
-	android:allowBackup
-		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:28:18-44
-	android:theme
-		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:31:9-45
-activity#com.example.android.tflitecamerademo.CameraActivity
-ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:33:9-39:20
-	android:label
-		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:34:19-51
-	android:name
-		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:33:19-85
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:35:13-38:29
-action#android.intent.action.MAIN
-ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:36:17-69
-	android:name
-		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:36:25-66
-category#android.intent.category.LAUNCHER
-ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:37:17-77
-	android:name
-		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:37:27-74
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:18:1-42:12 reason: org.tensorflow.lite has a targetSdkVersion < 4
+ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:26:5-81
+	android:name
+		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:26:22-78
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:18:1-42:12 reason: org.tensorflow.lite has a targetSdkVersion < 4
+ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:27:5-75
+	android:name
+		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:27:22-72
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:18:1-42:12 reason: org.tensorflow.lite requested WRITE_EXTERNAL_STORAGE
+ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:28:5-80
+	android:name
+		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:28:22-77
+application
+ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:30:5-45:19
+MERGED from [com.android.support:design:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2292ba54375be921019de803e2a59311/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2292ba54375be921019de803e2a59311/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/d8996dd75d3335c1347c625e7eb37cdf/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/d8996dd75d3335c1347c625e7eb37cdf/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/45727b2f29706ad066fd0dcaccc7af0a/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/45727b2f29706ad066fd0dcaccc7af0a/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-v13:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/17c7ddef111ed99f6f14a9dd087e3cd1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v13:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/17c7ddef111ed99f6f14a9dd087e3cd1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/7a3b530233939157fc8fdfad71e174db/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/7a3b530233939157fc8fdfad71e174db/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/95eb02918052511ec79183a7979b437a/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/95eb02918052511ec79183a7979b437a/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/572cb2f191e8be33fdbd410742df3c46/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/572cb2f191e8be33fdbd410742df3c46/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/716989cf379f147fb18a34ecab880005/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/716989cf379f147fb18a34ecab880005/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/6de0c85ad7affbda17ba9375e20b55ab/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/6de0c85ad7affbda17ba9375e20b55ab/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d149d112f5a9eec26ef9d26212bd13d1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d149d112f5a9eec26ef9d26212bd13d1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/da6e62774c33c12e1989ca40d2daf007/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/da6e62774c33c12e1989ca40d2daf007/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/399fa4bc641180e552270b0c68a42b23/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/399fa4bc641180e552270b0c68a42b23/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/723f110933be34ce5e9d2d06edb2bbde/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/723f110933be34ce5e9d2d06edb2bbde/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bfdbc42dfecf378ae9d99ee37674dc68/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bfdbc42dfecf378ae9d99ee37674dc68/AndroidManifest.xml:25:5-29:19
+MERGED from [org.tensorflow:tensorflow-lite:1.10.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.10.0.aar/da81a790779ffd2d39be41016c2b167d/AndroidManifest.xml:4:5-5:19
+MERGED from [org.tensorflow:tensorflow-lite:1.10.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.10.0.aar/da81a790779ffd2d39be41016c2b167d/AndroidManifest.xml:4:5-5:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bc9d581fa0af5f7bc420df9c8451de96/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bc9d581fa0af5f7bc420df9c8451de96/AndroidManifest.xml:24:5-28:19
+	android:label
+		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:33:9-41
+	android:icon
+		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:32:9-45
+	android:allowBackup
+		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:31:9-35
+	android:theme
+		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:34:9-45
+activity#com.example.android.tflitecamerademo.CameraActivity
+ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:35:9-43:20
+	android:label
+		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:37:13-45
+	android:name
+		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:36:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:38:13-42:29
+action#android.intent.action.MAIN
+ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:39:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:41:17-77
+	android:name
+		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:41:27-74
+activity#android.example.com.tflitecamerademo.ResultActivity
+ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:44:9-97
+	android:name
+		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:44:19-85
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2292ba54375be921019de803e2a59311/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/d8996dd75d3335c1347c625e7eb37cdf/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/d8996dd75d3335c1347c625e7eb37cdf/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v13:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/17c7ddef111ed99f6f14a9dd087e3cd1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v13:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/17c7ddef111ed99f6f14a9dd087e3cd1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/7a3b530233939157fc8fdfad71e174db/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/7a3b530233939157fc8fdfad71e174db/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/95eb02918052511ec79183a7979b437a/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/95eb02918052511ec79183a7979b437a/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/572cb2f191e8be33fdbd410742df3c46/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/572cb2f191e8be33fdbd410742df3c46/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/716989cf379f147fb18a34ecab880005/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/716989cf379f147fb18a34ecab880005/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/6de0c85ad7affbda17ba9375e20b55ab/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/6de0c85ad7affbda17ba9375e20b55ab/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d149d112f5a9eec26ef9d26212bd13d1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d149d112f5a9eec26ef9d26212bd13d1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/da6e62774c33c12e1989ca40d2daf007/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/da6e62774c33c12e1989ca40d2daf007/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/399fa4bc641180e552270b0c68a42b23/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/399fa4bc641180e552270b0c68a42b23/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/723f110933be34ce5e9d2d06edb2bbde/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/723f110933be34ce5e9d2d06edb2bbde/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bfdbc42dfecf378ae9d99ee37674dc68/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bfdbc42dfecf378ae9d99ee37674dc68/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2292ba54375be921019de803e2a59311/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2292ba54375be921019de803e2a59311/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bc9d581fa0af5f7bc420df9c8451de96/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bc9d581fa0af5f7bc420df9c8451de96/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bc9d581fa0af5f7bc420df9c8451de96/AndroidManifest.xml:26:13-58

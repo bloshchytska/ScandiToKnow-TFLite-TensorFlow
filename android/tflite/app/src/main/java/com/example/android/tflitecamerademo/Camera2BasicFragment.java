@@ -26,6 +26,7 @@ import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
+import android.example.com.tflitecamerademo.ResultActivity;
 import android.graphics.Bitmap;
 import android.graphics.ImageFormat;
 import android.graphics.Matrix;
@@ -347,7 +348,8 @@ public class Camera2BasicFragment extends Fragment
 
     buttonView.setOnClickListener(new View.OnClickListener() {
       public void onClick(View v) {
-        //Intent intent = new Intent(this, )
+        Intent intent = new Intent(getActivity(), ResultActivity.class);
+        startActivity(intent);
       }
     });
   }
