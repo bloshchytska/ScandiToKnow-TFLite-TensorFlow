@@ -2,6 +2,7 @@ package android.example.com.tflitecamerademo;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.hardware.camera2.CameraAccessException;
 import android.os.Bundle;
 import android.view.View;
@@ -10,6 +11,8 @@ import android.widget.TextView;
 
 import com.example.android.tflitecamerademo.CameraActivity;
 import com.example.android.tflitecamerademo.R;
+
+import static com.example.android.tflitecamerademo.CameraActivity.sCustomFont;
 
 public class ResultActivity extends Activity {
 
@@ -25,6 +28,8 @@ public class ResultActivity extends Activity {
         textViewStoryName = (TextView) findViewById(R.id.textViewStoryName);
         storyTextView = (TextView) findViewById(R.id.storyTextView);
         backButton = (Button) findViewById(R.id.backButton);
+        textViewStoryName.setTypeface(sCustomFont, Typeface.BOLD);
+        storyTextView.setTypeface(sCustomFont, Typeface.BOLD);
 
         Bundle extras = getIntent().getExtras();
 

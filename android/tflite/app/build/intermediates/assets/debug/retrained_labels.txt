@@ -3,3 +3,4 @@ forseti
 nanna
 skadi
 ullr
+vidar

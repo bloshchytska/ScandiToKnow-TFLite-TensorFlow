@@ -1,19 +1,23 @@
 #Internal package file, do not edit.
-#Mon Oct 15 19:18:41 CEST 2018
-1.base=/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/build/intermediates/assets/debug
-2.path=font/main_font.ttf
-0.baseType=DIRECTORY
-3.baseType=DIRECTORY
+#Sun Oct 21 13:25:55 CEST 2018
 2.base=/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/build/intermediates/assets/debug
-3.set=ASSET
-2.set=ASSET
-1.baseType=DIRECTORY
-3.path=retrained_labels.txt
-count=4
-1.set=ASSET
 0.path=BUILD
-3.base=/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/build/intermediates/assets/debug
-0.set=ASSET
-0.base=/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/build/intermediates/assets/debug
 2.baseType=DIRECTORY
+3.base=/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/build/intermediates/assets/debug
+2.set=ASSET
 1.path=optimized_graph.lite
+4.base=/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/build/intermediates/assets/debug
+count=5
+2.path=font/main_font.ttf
+4.set=ASSET
+3.path=retrained_graph.pb
+3.baseType=DIRECTORY
+1.set=ASSET
+4.path=retrained_labels.txt
+1.baseType=DIRECTORY
+0.base=/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/build/intermediates/assets/debug
+0.baseType=DIRECTORY
+3.set=ASSET
+1.base=/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/build/intermediates/assets/debug
+4.baseType=DIRECTORY
+0.set=ASSET

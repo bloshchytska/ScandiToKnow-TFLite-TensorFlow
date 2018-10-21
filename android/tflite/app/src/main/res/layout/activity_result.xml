@@ -13,6 +13,7 @@
         android:layout_marginLeft="30dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="30dp"
+        android:fontFamily="@font/slimamif_res"
         android:paddingTop="20dp"
         android:text="TextView"
         android:textAlignment="center"
@@ -31,6 +32,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginRight="30dp"
         android:layout_marginBottom="20dp"
+        android:fontFamily="@font/slimamif_res"
         android:text="TextView"
         android:textColor="@color/control_background"
         android:textSize="24sp"
@@ -48,7 +50,7 @@
         android:layout_marginBottom="20dp"
         android:background="@color/button_color"
         android:backgroundTint="@color/button_color"
-        android:text="Button"
+        android:text="Zurück"
         android:textColor="@color/control_color" />
 
 

@@ -30,6 +30,9 @@ public class Resultmodel {
             case "ullr":
                 text = "uuuuu";
                 break;
+            case "vidar":
+                text = "vvv";
+                break;
 
                 default:
                     text = "don't found";
