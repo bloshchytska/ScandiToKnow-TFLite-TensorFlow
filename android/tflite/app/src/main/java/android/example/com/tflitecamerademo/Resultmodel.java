@@ -16,7 +16,7 @@ public class Resultmodel {
 
         switch (name) {
             case "baldr":
-                text = "bbbbbb";
+                text = "ddddd";
                 break;
             case "forseti":
                 text = "fffff";

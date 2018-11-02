@@ -27,20 +27,11 @@ public class ResultActivity extends Activity {
 
         textViewStoryName = (TextView) findViewById(R.id.textViewStoryName);
         storyTextView = (TextView) findViewById(R.id.storyTextView);
-        backButton = (Button) findViewById(R.id.backButton);
         textViewStoryName.setTypeface(sCustomFont, Typeface.BOLD);
         storyTextView.setTypeface(sCustomFont, Typeface.BOLD);
 
         Bundle extras = getIntent().getExtras();
 
-        backButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), CameraActivity.class);
-                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                startActivity(intent);
-            }
-        });
 
         if (extras != null) {
             String storyNameText = extras.getString("STORY_NAME").toUpperCase();
@@ -51,7 +42,6 @@ public class ResultActivity extends Activity {
         } else {
             textViewStoryName.setText("???");
         }
-
-
     }
+
 }
