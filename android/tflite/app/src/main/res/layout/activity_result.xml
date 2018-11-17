@@ -1,47 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/control_color"
-    android:isScrollContainer="true"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textViewStoryName"
+    <RelativeLayout
+        android:id="@+id/header"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="30dp"
-        android:fontFamily="@font/slimamif_res"
-        android:paddingTop="20dp"
-        android:text="TextView"
-        android:textAlignment="center"
-        android:textColor="@color/button_color"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:background="@color/control_color"
+        android:gravity="center">
 
-    <TextView
-        android:id="@+id/storyTextView"
+        <TextView
+            android:id="@+id/textViewStoryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="146dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toStartOf="@+id/imageButton"
+            android:fontFamily="@font/slimamif_res"
+            android:text="header_msg"
+            android:textAlignment="center"
+            android:textColor="@color/button_color"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="57dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/button_color"
+            android:backgroundTint="@color/button_color"
+            android:elevation="4dp"
+            app:srcCompat="@android:drawable/ic_media_play" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/footer"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginBottom="20dp"
-        android:fontFamily="@font/slimamif_res"
-        android:text="TextView"
-        android:textColor="@color/control_background"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewStoryName"
-        app:layout_constraintVertical_bias="0.731" />
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:background="@color/control_color"
+        android:gravity="center">
 
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/button_color"
+            android:backgroundTint="@color/button_color"
+            android:text="Zurück"
+            android:textColor="@color/control_color" />
 
-</LinearLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/footer"
+        android:layout_below="@+id/header"
+        android:background="#D7E4EC"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/myLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#D7E4EC"
+            android:fillViewport="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/storyTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:fontFamily="@font/slimamif_res"
+                android:gravity="left|start"
+                android:text="body_msg"
+                android:textAlignment="viewStart"
+                android:textColor="@color/control_background"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
