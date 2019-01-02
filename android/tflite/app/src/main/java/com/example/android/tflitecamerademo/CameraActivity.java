@@ -37,4 +37,10 @@ public class CameraActivity extends Activity {
           .commit();
     }
   }
+
+  @Override
+  public void onBackPressed() {
+    super.onBackPressed();
+    finish();
+  }
 }

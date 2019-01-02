@@ -18,7 +18,7 @@ MERGED from [com.android.support:support-fragment:26.1.0] /Users/a.bloshchytska/
 MERGED from [com.android.support:support-core-utils:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/399fa4bc641180e552270b0c68a42b23/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-ui:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/723f110933be34ce5e9d2d06edb2bbde/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bfdbc42dfecf378ae9d99ee37674dc68/AndroidManifest.xml:17:1-31:12
-MERGED from [org.tensorflow:tensorflow-lite:1.10.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.10.0.aar/da81a790779ffd2d39be41016c2b167d/AndroidManifest.xml:2:1-6:12
+MERGED from [org.tensorflow:tensorflow-lite:1.12.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.12.0.aar/12677e8b1a3ec2c8f71a06964e722660/AndroidManifest.xml:2:1-11:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bc9d581fa0af5f7bc420df9c8451de96/AndroidManifest.xml:17:1-30:12
 INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:16:1-47:12
 INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:16:1-47:12
@@ -69,6 +69,8 @@ MERGED from [com.android.support:support-core-ui:26.1.0] /Users/a.bloshchytska/.
 MERGED from [com.android.support:support-core-ui:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/723f110933be34ce5e9d2d06edb2bbde/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bfdbc42dfecf378ae9d99ee37674dc68/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bfdbc42dfecf378ae9d99ee37674dc68/AndroidManifest.xml:21:5-23:58
+MERGED from [org.tensorflow:tensorflow-lite:1.12.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.12.0.aar/12677e8b1a3ec2c8f71a06964e722660/AndroidManifest.xml:5:5-7:41
+MERGED from [org.tensorflow:tensorflow-lite:1.12.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.12.0.aar/12677e8b1a3ec2c8f71a06964e722660/AndroidManifest.xml:5:5-7:41
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bc9d581fa0af5f7bc420df9c8451de96/AndroidManifest.xml:20:5-22:41
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bc9d581fa0af5f7bc420df9c8451de96/AndroidManifest.xml:20:5-22:41
 INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:19:5-44
@@ -137,8 +139,8 @@ MERGED from [com.android.support:support-core-ui:26.1.0] /Users/a.bloshchytska/.
 MERGED from [com.android.support:support-core-ui:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/723f110933be34ce5e9d2d06edb2bbde/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-compat:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bfdbc42dfecf378ae9d99ee37674dc68/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-compat:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bfdbc42dfecf378ae9d99ee37674dc68/AndroidManifest.xml:25:5-29:19
-MERGED from [org.tensorflow:tensorflow-lite:1.10.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.10.0.aar/da81a790779ffd2d39be41016c2b167d/AndroidManifest.xml:4:5-5:19
-MERGED from [org.tensorflow:tensorflow-lite:1.10.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.10.0.aar/da81a790779ffd2d39be41016c2b167d/AndroidManifest.xml:4:5-5:19
+MERGED from [org.tensorflow:tensorflow-lite:1.12.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.12.0.aar/12677e8b1a3ec2c8f71a06964e722660/AndroidManifest.xml:9:5-20
+MERGED from [org.tensorflow:tensorflow-lite:1.12.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.12.0.aar/12677e8b1a3ec2c8f71a06964e722660/AndroidManifest.xml:9:5-20
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bc9d581fa0af5f7bc420df9c8451de96/AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bc9d581fa0af5f7bc420df9c8451de96/AndroidManifest.xml:24:5-28:19
 	android:label

@@ -23,7 +23,7 @@ public class ResultActivity extends Activity {
 
     private static TextView textViewStoryName;
     private static TextView storyTextView;
-    private static Button backButton;
+    private static Button backButton, playButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,32 +32,45 @@ public class ResultActivity extends Activity {
 
         textViewStoryName = (TextView) findViewById(R.id.textViewStoryName);
         storyTextView = (TextView) findViewById(R.id.storyTextView);
+        backButton = (Button) findViewById(R.id.back);
+        playButton = (Button) findViewById(R.id.play);
         textViewStoryName.setTypeface(sCustomFont, Typeface.BOLD);
         storyTextView.setTypeface(sCustomFont, Typeface.BOLD);
 
         Bundle extras = getIntent().getExtras();
 
+        backButton.setTypeface(sCustomFont, Typeface.BOLD);
+        backButton.setTextSize(getResources().getDimension(R.dimen.textSizeSmall));
+        playButton.setTypeface(sCustomFont, Typeface.BOLD);
+        playButton.setTextSize(getResources().getDimension(R.dimen.textSizeSmall));
 
         if (extras != null) {
             String storyNameText = extras.getString("STORY_NAME").toUpperCase();
             String story = readTextFile(extras.getString("STORY_NAME"));
             storyTextView.setText(story);
-
             textViewStoryName.setText(storyNameText);
         } else {
             textViewStoryName.setText("???");
         }
+
+        backButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                onBackPressed();
+                finish();
+            }
+        });
     }
 
     private String readTextFile(String name) {
 
         BufferedReader reader = null;
         String textFromFile = "";
-        String textFileName = "text/"+ name + ".txt";
+        //name = "balder";
+        String textFileName = "text/" + name + ".txt";
 
         try {
             reader = new BufferedReader(
-                    new InputStreamReader(getAssets().open("text/balder.txt"), "UTF-8"));
+                    new InputStreamReader(getAssets().open(textFileName), "UTF-8"));
 
             String mLine = "";
             while ((mLine = reader.readLine()) != null) {

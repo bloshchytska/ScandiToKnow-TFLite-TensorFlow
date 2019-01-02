@@ -342,6 +342,8 @@ public class Camera2BasicFragment extends Fragment
     textView = (TextView) view.findViewById(R.id.text);
     buttonView = (Button) view.findViewById(R.id.button);
     textView.setTypeface(sCustomFont, Typeface.BOLD);
+    buttonView.setTypeface(sCustomFont, Typeface.BOLD);
+    buttonView.setTextSize(getResources().getDimension(R.dimen.textSizeSmall));
     progressBarTextView.setTypeface(sCustomFont, Typeface.BOLD);
 
     buttonView.setOnClickListener(new View.OnClickListener() {

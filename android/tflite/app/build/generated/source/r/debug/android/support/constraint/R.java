@@ -67,14 +67,14 @@ public final class R {
         public static final int layout_optimizationLevel = 0x7f0300f4;
     }
     public static final class id {
-        public static final int bottom = 0x7f090023;
+        public static final int bottom = 0x7f090024;
         public static final int end = 0x7f090042;
         public static final int gone = 0x7f090050;
-        public static final int invisible = 0x7f09005c;
-        public static final int left = 0x7f090060;
-        public static final int packed = 0x7f090073;
-        public static final int parent = 0x7f090075;
-        public static final int percent = 0x7f090078;
+        public static final int invisible = 0x7f09005b;
+        public static final int left = 0x7f09005f;
+        public static final int packed = 0x7f090072;
+        public static final int parent = 0x7f090074;
+        public static final int percent = 0x7f090077;
         public static final int right = 0x7f090080;
         public static final int spread = 0x7f0900a2;
         public static final int spread_inside = 0x7f0900a3;
