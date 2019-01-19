@@ -8,6 +8,7 @@ import android.os.Handler;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
@@ -17,11 +18,11 @@ import static com.example.android.tflitecamerademo.CameraActivity.sCustomFont;
 
 public class ResultAudioActivity extends Activity {
 
-    private static Button backButton, playButton;
     private static TextView textViewStoryName;
     private Button buttonPlayStop;
     private MediaPlayer mediaPlayer;
     private SeekBar seekBar;
+    private ImageButton backButton;
 
     private final Handler handler = new Handler();
 
@@ -31,12 +32,15 @@ public class ResultAudioActivity extends Activity {
         setContentView(R.layout.activity_result_audio);
         Bundle extras = getIntent().getExtras();
 
-        textViewStoryName = (TextView) findViewById(R.id.textViewStoryName);
-        backButton = (Button) findViewById(R.id.back);
+        backButton = (ImageButton) findViewById(R.id.back);
 
+        buttonPlayStop = (Button) findViewById(R.id.buttonPlayStop);
+        buttonPlayStop.setTypeface(sCustomFont, Typeface.BOLD);
+        buttonPlayStop.setTextSize(getResources().getDimension(R.dimen.textSizeSmall));
+
+        textViewStoryName = (TextView) findViewById(R.id.textViewStoryName);
         textViewStoryName.setTypeface(sCustomFont, Typeface.BOLD);
-        backButton.setTypeface(sCustomFont, Typeface.BOLD);
-        backButton.setTextSize(getResources().getDimension(R.dimen.textSizeSmall));
+
 
 
         if (extras != null) {
@@ -57,7 +61,6 @@ public class ResultAudioActivity extends Activity {
     }
 
     private void initViews() {
-        buttonPlayStop = (Button) findViewById(R.id.ButtonPlayStop);
         mediaPlayer = MediaPlayer.create(this, R.raw.bragi);
         seekBar = (SeekBar) findViewById(R.id.seekBar);
         seekBar.setMax(mediaPlayer.getDuration());

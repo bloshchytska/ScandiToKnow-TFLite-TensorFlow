@@ -19,6 +19,19 @@
             android:layout_height="match_parent"
             android:background="@color/info_color">
 
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:background="@color/info_color"
+                android:src="?android:attr/actionModeCloseDrawable"
+                android:tint="@color/control_color"
+                app:layout_constraintBottom_toBottomOf="@+id/textViewStoryName"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textViewStoryName"
+                app:layout_constraintVertical_bias="0.529" />
+
             <TextView
                 android:id="@+id/textViewStoryName"
                 android:layout_width="wrap_content"
@@ -39,83 +52,59 @@
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-        </android.support.constraint.ConstraintLayout>
-
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:id="@+id/footer"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_alignParentBottom="true"
-        android:layout_gravity="center"
-        android:background="@color/info_color"
-        android:gravity="center">
-
-        <android.support.constraint.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <Button
-                android:id="@+id/back"
-                android:layout_width="107dp"
-                android:layout_height="40dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="8dp"
-                android:background="@color/control_color"
-                android:backgroundTint="@color/control_color"
-                android:fontFamily="@font/slimamif"
-                android:text="Zurück"
-                android:textColor="@color/button_color"
-                android:textSize="14sp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
+                app:layout_constraintHorizontal_bias="0.111"
+                app:layout_constraintStart_toEndOf="@+id/back"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.666" />
         </android.support.constraint.ConstraintLayout>
 
     </RelativeLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp">
 
             <Button
-                android:id="@+id/ButtonPlayStop"
+                android:id="@+id/buttonPlayStop"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginBottom="288dp"
+                android:layout_marginBottom="92dp"
+                android:background="@color/error_color"
+                android:backgroundTint="@color/error_color"
                 android:onClick="playAndStop"
                 android:text="@string/play_str"
-                android:textSize="15pt"
+                android:textColor="@color/control_color"
+                android:textSize="12sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.501"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <SeekBar
                 android:id="@+id/seekBar"
+                style="@android:style/Widget.Material.Light.SeekBar"
                 android:layout_width="305dp"
                 android:layout_height="61dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                app:layout_constraintBottom_toTopOf="@+id/ButtonPlayStop"
+                android:thumbTint="@color/error_color"
+                app:layout_constraintBottom_toTopOf="@+id/buttonPlayStop"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.506"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.858" />
+                app:layout_constraintVertical_bias="0.949" />
         </android.support.constraint.ConstraintLayout>
     </RelativeLayout>
 

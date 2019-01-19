@@ -67,7 +67,7 @@ public final class R {
         public static final int layout_optimizationLevel = 0x7f0300f4;
     }
     public static final class id {
-        public static final int bottom = 0x7f090026;
+        public static final int bottom = 0x7f090025;
         public static final int end = 0x7f090043;
         public static final int gone = 0x7f090051;
         public static final int invisible = 0x7f09005c;

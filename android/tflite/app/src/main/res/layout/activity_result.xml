@@ -19,6 +19,18 @@
             android:layout_height="match_parent"
             android:background="@color/info_color">
 
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:background="@color/info_color"
+                android:src="?android:attr/actionModeCloseDrawable"
+                android:tint="@color/control_color"
+                app:layout_constraintBottom_toBottomOf="@+id/textViewStoryName"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textViewStoryName" />
+
             <TextView
                 android:id="@+id/textViewStoryName"
                 android:layout_width="wrap_content"
@@ -39,45 +51,10 @@
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-        </android.support.constraint.ConstraintLayout>
-
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:id="@+id/footer"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_alignParentBottom="true"
-        android:layout_gravity="center"
-        android:background="@color/info_color"
-        android:gravity="center">
-
-        <android.support.constraint.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <Button
-                android:id="@+id/back"
-                android:layout_width="124dp"
-                android:layout_height="40dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="8dp"
-                android:background="@color/control_color"
-                android:backgroundTint="@color/control_color"
-                android:fontFamily="@font/slimamif"
-                android:text="Zurück"
-                android:textColor="@color/button_color"
-                android:textSize="14sp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
+                app:layout_constraintHorizontal_bias="0.131"
+                app:layout_constraintStart_toEndOf="@+id/back"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
         </android.support.constraint.ConstraintLayout>
 
     </RelativeLayout>

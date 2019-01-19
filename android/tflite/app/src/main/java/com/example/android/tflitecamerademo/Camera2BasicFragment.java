@@ -232,7 +232,7 @@ public class Camera2BasicFragment extends Fragment
                     textView.setVisibility(View.VISIBLE);
                     textView.setTextColor(getResources().getColor(R.color.error_color));
                     textView.setTextSize(getResources().getDimension(R.dimen.textSizeSmall));
-                    textView.setText("Uninitialized Classifier or invalid context.");
+                    textView.setText("start");
                 }
 
                 if(ImageClassifier.sTopLabelMatchPercent < 0.2f) {

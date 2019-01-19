@@ -2009,7 +2009,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
      * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>7</td><td></td></tr>
@@ -3617,45 +3617,45 @@ public final class R {
   }
   public static final class id {
     public static final int ALT=0x7f090000;
-    public static final int ButtonPlayStop=0x7f090001;
-    public static final int CTRL=0x7f090002;
-    public static final int FUNCTION=0x7f090003;
-    public static final int META=0x7f090004;
-    public static final int SHIFT=0x7f090005;
-    public static final int SYM=0x7f090006;
-    public static final int action0=0x7f090007;
-    public static final int action_bar=0x7f090008;
-    public static final int action_bar_activity_content=0x7f090009;
-    public static final int action_bar_container=0x7f09000a;
-    public static final int action_bar_root=0x7f09000b;
-    public static final int action_bar_spinner=0x7f09000c;
-    public static final int action_bar_subtitle=0x7f09000d;
-    public static final int action_bar_title=0x7f09000e;
-    public static final int action_container=0x7f09000f;
-    public static final int action_context_bar=0x7f090010;
-    public static final int action_divider=0x7f090011;
-    public static final int action_image=0x7f090012;
-    public static final int action_menu_divider=0x7f090013;
-    public static final int action_menu_presenter=0x7f090014;
-    public static final int action_mode_bar=0x7f090015;
-    public static final int action_mode_bar_stub=0x7f090016;
-    public static final int action_mode_close_button=0x7f090017;
-    public static final int action_text=0x7f090018;
-    public static final int actions=0x7f090019;
-    public static final int activity_chooser_view_content=0x7f09001a;
-    public static final int add=0x7f09001b;
-    public static final int alertTitle=0x7f09001c;
-    public static final int all=0x7f09001d;
-    public static final int always=0x7f09001e;
-    public static final int async=0x7f09001f;
-    public static final int audioButton=0x7f090020;
-    public static final int auto=0x7f090021;
-    public static final int back=0x7f090022;
-    public static final int barrier=0x7f090023;
-    public static final int beginning=0x7f090024;
-    public static final int blocking=0x7f090025;
-    public static final int bottom=0x7f090026;
-    public static final int buttonPanel=0x7f090027;
+    public static final int CTRL=0x7f090001;
+    public static final int FUNCTION=0x7f090002;
+    public static final int META=0x7f090003;
+    public static final int SHIFT=0x7f090004;
+    public static final int SYM=0x7f090005;
+    public static final int action0=0x7f090006;
+    public static final int action_bar=0x7f090007;
+    public static final int action_bar_activity_content=0x7f090008;
+    public static final int action_bar_container=0x7f090009;
+    public static final int action_bar_root=0x7f09000a;
+    public static final int action_bar_spinner=0x7f09000b;
+    public static final int action_bar_subtitle=0x7f09000c;
+    public static final int action_bar_title=0x7f09000d;
+    public static final int action_container=0x7f09000e;
+    public static final int action_context_bar=0x7f09000f;
+    public static final int action_divider=0x7f090010;
+    public static final int action_image=0x7f090011;
+    public static final int action_menu_divider=0x7f090012;
+    public static final int action_menu_presenter=0x7f090013;
+    public static final int action_mode_bar=0x7f090014;
+    public static final int action_mode_bar_stub=0x7f090015;
+    public static final int action_mode_close_button=0x7f090016;
+    public static final int action_text=0x7f090017;
+    public static final int actions=0x7f090018;
+    public static final int activity_chooser_view_content=0x7f090019;
+    public static final int add=0x7f09001a;
+    public static final int alertTitle=0x7f09001b;
+    public static final int all=0x7f09001c;
+    public static final int always=0x7f09001d;
+    public static final int async=0x7f09001e;
+    public static final int audioButton=0x7f09001f;
+    public static final int auto=0x7f090020;
+    public static final int back=0x7f090021;
+    public static final int barrier=0x7f090022;
+    public static final int beginning=0x7f090023;
+    public static final int blocking=0x7f090024;
+    public static final int bottom=0x7f090025;
+    public static final int buttonPanel=0x7f090026;
+    public static final int buttonPlayStop=0x7f090027;
     public static final int cancel_action=0x7f090028;
     public static final int center=0x7f090029;
     public static final int center_horizontal=0x7f09002a;
@@ -9055,7 +9055,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
      * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>7</td><td></td></tr>

@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import com.example.android.tflitecamerademo.R;
 
@@ -21,7 +22,7 @@ public class ResultActivity extends Activity {
 
     private static TextView textViewStoryName;
     private static TextView storyTextView;
-    private static Button backButton;
+    private static ImageButton backButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,14 +31,11 @@ public class ResultActivity extends Activity {
 
         textViewStoryName = (TextView) findViewById(R.id.textViewStoryName);
         storyTextView = (TextView) findViewById(R.id.storyTextView);
-        backButton = (Button) findViewById(R.id.back);
+        backButton = (ImageButton) findViewById(R.id.back);
         textViewStoryName.setTypeface(sCustomFont, Typeface.BOLD);
         storyTextView.setTypeface(sCustomFont, Typeface.BOLD);
 
         Bundle extras = getIntent().getExtras();
-
-        backButton.setTypeface(sCustomFont, Typeface.BOLD);
-        backButton.setTextSize(getResources().getDimension(R.dimen.textSizeSmall));
 
         if (extras != null) {
             String storyNameText = extras.getString("STORY_NAME").toUpperCase();
