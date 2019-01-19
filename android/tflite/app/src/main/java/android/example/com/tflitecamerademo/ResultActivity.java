@@ -9,8 +9,6 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-
-import com.example.android.tflitecamerademo.CameraActivity;
 import com.example.android.tflitecamerademo.R;
 
 import java.io.BufferedReader;
@@ -23,7 +21,7 @@ public class ResultActivity extends Activity {
 
     private static TextView textViewStoryName;
     private static TextView storyTextView;
-    private static Button backButton, playButton;
+    private static Button backButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +31,6 @@ public class ResultActivity extends Activity {
         textViewStoryName = (TextView) findViewById(R.id.textViewStoryName);
         storyTextView = (TextView) findViewById(R.id.storyTextView);
         backButton = (Button) findViewById(R.id.back);
-        playButton = (Button) findViewById(R.id.play);
         textViewStoryName.setTypeface(sCustomFont, Typeface.BOLD);
         storyTextView.setTypeface(sCustomFont, Typeface.BOLD);
 
@@ -41,8 +38,6 @@ public class ResultActivity extends Activity {
 
         backButton.setTypeface(sCustomFont, Typeface.BOLD);
         backButton.setTextSize(getResources().getDimension(R.dimen.textSizeSmall));
-        playButton.setTypeface(sCustomFont, Typeface.BOLD);
-        playButton.setTextSize(getResources().getDimension(R.dimen.textSizeSmall));
 
         if (extras != null) {
             String storyNameText = extras.getString("STORY_NAME").toUpperCase();
@@ -65,7 +60,7 @@ public class ResultActivity extends Activity {
 
         BufferedReader reader = null;
         String textFromFile = "";
-        //name = "balder";
+        name = "balder";
         String textFileName = "text/" + name + ".txt";
 
         try {

@@ -49,6 +49,7 @@
             </intent-filter>
         </activity>
         <activity android:name="android.example.com.tflitecamerademo.ResultActivity" />
+        <activity android:name="android.example.com.tflitecamerademo.ResultAudioActivity" />
 
         <meta-data
             android:name="android.support.VERSION"

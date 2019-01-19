@@ -27,6 +27,7 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.example.com.tflitecamerademo.ResultActivity;
+import android.example.com.tflitecamerademo.ResultAudioActivity;
 import android.graphics.Bitmap;
 import android.graphics.ImageFormat;
 import android.graphics.Matrix;
@@ -92,7 +93,8 @@ public class Camera2BasicFragment extends Fragment
   private TextView progressBarTextView;
   private ConstraintLayout progressBarLayout;
   private ConstraintLayout hintLayout;
-  private Button buttonView;
+  private Button audioButton;
+  private Button textButton;
   private ImageClassifier classifier;
 
   /** Max preview width that is guaranteed by Camera2 API */
@@ -214,6 +216,7 @@ public class Camera2BasicFragment extends Fragment
    */
   private void showToast(final String text) {
     final Activity activity = getActivity();
+
     if (activity != null) {
       activity.runOnUiThread(
           new Runnable() {
@@ -224,7 +227,8 @@ public class Camera2BasicFragment extends Fragment
                 if (classifier == null || getActivity() == null || cameraDevice == null) {
                     hintLayout.setVisibility(View.VISIBLE);
 
-                    buttonView.setVisibility(View.GONE);
+                    audioButton.setVisibility(View.GONE);
+                    textButton.setVisibility(View.GONE);
                     textView.setVisibility(View.VISIBLE);
                     textView.setTextColor(getResources().getColor(R.color.error_color));
                     textView.setTextSize(getResources().getDimension(R.dimen.textSizeSmall));
@@ -245,17 +249,8 @@ public class Camera2BasicFragment extends Fragment
                     if(ImageClassifier.sTopLabelMatchPercent > 0.85f) {
                         progressBarTextView.setText("Kuck mal, wer da gleich erscheint...");
                     }
-                    if(ImageClassifier.sTopLabelMatchPercent > 0.9f) {
-                        progressBarLayout.setVisibility(View.GONE);
-                        hintLayout.setVisibility(View.VISIBLE);
-                        buttonView.setVisibility(View.VISIBLE);
-                        textView.setTextSize(getResources().getDimension(R.dimen.textSizeMiddle));
-                        textView.setTextColor(getResources().getColor(R.color.info_color));
-                        textView.setTextSize(getResources().getDimension(R.dimen.textSizeMiddle));
-                        textView.setText(ImageClassifier.sTopLabelName);
-
-                        String newText = ImageClassifier.sTopLabelName + "-Geschichte " + "öffnen";
-                        buttonView.setText(newText);
+                    if(ImageClassifier.sTopLabelMatchPercent > 0.88f) {
+                        runResult();
                     }
                 }
             }
@@ -263,6 +258,24 @@ public class Camera2BasicFragment extends Fragment
     }
   }
 
+  private void runResult() {
+    progressBarLayout.setVisibility(View.GONE);
+    hintLayout.setVisibility(View.VISIBLE);
+    audioButton.setVisibility(View.VISIBLE);
+    textButton.setVisibility(View.VISIBLE);
+    textView.setTextSize(getResources().getDimension(R.dimen.textSizeMiddle));
+    textView.setTextColor(getResources().getColor(R.color.info_color));
+    textView.setTextSize(getResources().getDimension(R.dimen.textSizeMiddle));
+    textView.setText(ImageClassifier.sTopLabelName);
+
+    String textText = "Lesen";
+    String audioText = "Anhören";
+    audioButton.setText(audioText);
+    textButton.setText(textText);
+
+    //    closeCamera();
+    //    stopBackgroundThread();
+  }
   /**
    * Resizes image.
    *
@@ -340,16 +353,27 @@ public class Camera2BasicFragment extends Fragment
     hintLayout = (ConstraintLayout) view.findViewById(R.id.hintLayout);
     textureView = (AutoFitTextureView) view.findViewById(R.id.texture);
     textView = (TextView) view.findViewById(R.id.text);
-    buttonView = (Button) view.findViewById(R.id.button);
+    audioButton = (Button) view.findViewById(R.id.audioButton);
+    textButton = (Button) view.findViewById(R.id.textButton);
     textView.setTypeface(sCustomFont, Typeface.BOLD);
-    buttonView.setTypeface(sCustomFont, Typeface.BOLD);
-    buttonView.setTextSize(getResources().getDimension(R.dimen.textSizeSmall));
+    audioButton.setTypeface(sCustomFont, Typeface.BOLD);
+    textButton.setTypeface(sCustomFont, Typeface.BOLD);
+    audioButton.setTextSize(getResources().getDimension(R.dimen.textSizeSmall));
+    textButton.setTextSize(getResources().getDimension(R.dimen.textSizeSmall));
     progressBarTextView.setTypeface(sCustomFont, Typeface.BOLD);
 
-    buttonView.setOnClickListener(new View.OnClickListener() {
+    textButton.setOnClickListener(new View.OnClickListener() {
       public void onClick(View v) {
         String storyName = ImageClassifier.sTopLabelName.toLowerCase();
         Intent intent = new Intent(getActivity(), ResultActivity.class);
+        intent.putExtra("STORY_NAME", storyName);
+        startActivity(intent);
+      }
+    });
+    audioButton.setOnClickListener(new View.OnClickListener() {
+      public void onClick(View v) {
+        String storyName = ImageClassifier.sTopLabelName.toLowerCase();
+        Intent intent = new Intent(getActivity(), ResultAudioActivity.class);
         intent.putExtra("STORY_NAME", storyName);
         startActivity(intent);
       }
@@ -721,7 +745,7 @@ public class Camera2BasicFragment extends Fragment
   /** Classifies a frame from the preview stream. */
   private void classifyFrame() {
     if (classifier == null || getActivity() == null || cameraDevice == null) {
-      showToast("Uninitialized Classifier or invalid context.");
+      showToast("start");
       return;
     }
 

@@ -41,7 +41,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="android.example.com.tflitecamerademo.ResultActivity"></activity>
+        <activity android:name="android.example.com.tflitecamerademo.ResultActivity" />
+        <activity android:name="android.example.com.tflitecamerademo.ResultAudioActivity"></activity>
     </application>
 
 </manifest>

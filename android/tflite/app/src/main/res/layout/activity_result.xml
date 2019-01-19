@@ -17,7 +17,7 @@
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/button_color">
+            android:background="@color/info_color">
 
             <TextView
                 android:id="@+id/textViewStoryName"
@@ -51,7 +51,7 @@
         android:layout_height="60dp"
         android:layout_alignParentBottom="true"
         android:layout_gravity="center"
-        android:background="@color/control_color"
+        android:background="@color/info_color"
         android:gravity="center">
 
         <android.support.constraint.ConstraintLayout
@@ -60,10 +60,11 @@
 
             <Button
                 android:id="@+id/back"
-                android:layout_width="186dp"
+                android:layout_width="124dp"
                 android:layout_height="40dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
                 android:layout_marginBottom="8dp"
                 android:background="@color/control_color"
                 android:backgroundTint="@color/control_color"
@@ -73,26 +74,8 @@
                 android:textSize="14sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <Button
-                android:id="@+id/play"
-                android:layout_width="143dp"
-                android:layout_height="40dp"
-                android:layout_margin="10dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="36dp"
-                android:background="@color/button_color"
-                android:backgroundTint="@color/button_color"
-                android:fontFamily="@font/slimamif"
-                android:text="Anhören"
-                android:textColor="@color/control_color"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/back"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
         </android.support.constraint.ConstraintLayout>
@@ -105,7 +88,7 @@
         android:layout_height="fill_parent"
         android:layout_above="@+id/footer"
         android:layout_below="@+id/header"
-        android:background="@color/main_color"
+        android:background="@color/control_color"
         android:fillViewport="true">
 
         <LinearLayout

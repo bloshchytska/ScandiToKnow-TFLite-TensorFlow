@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:16:1-47:12
-INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:16:1-47:12
-INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:16:1-47:12
-INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:16:1-47:12
+ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:16:1-48:12
+INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:16:1-48:12
+INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:16:1-48:12
+INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:16:1-48:12
 MERGED from [com.android.support:design:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2292ba54375be921019de803e2a59311/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/d8996dd75d3335c1347c625e7eb37cdf/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/45727b2f29706ad066fd0dcaccc7af0a/AndroidManifest.xml:2:1-11:12
@@ -20,20 +20,20 @@ MERGED from [com.android.support:support-core-ui:26.1.0] /Users/a.bloshchytska/.
 MERGED from [com.android.support:support-compat:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bfdbc42dfecf378ae9d99ee37674dc68/AndroidManifest.xml:17:1-31:12
 MERGED from [org.tensorflow:tensorflow-lite:1.12.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/tensorflow-lite-1.12.0.aar/12677e8b1a3ec2c8f71a06964e722660/AndroidManifest.xml:2:1-11:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bc9d581fa0af5f7bc420df9c8451de96/AndroidManifest.xml:17:1-30:12
-INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:16:1-47:12
-INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:16:1-47:12
-INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:16:1-47:12
+INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:16:1-48:12
+INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:16:1-48:12
+INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:16:1-48:12
 	package
 		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:17:5-51
 		INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml
-		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:16:1-47:12
+		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:16:1-48:12
 		INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml
-		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:16:1-47:12
+		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:16:1-48:12
 		INJECTED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:16:11-69
@@ -110,7 +110,7 @@ ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/Sca
 	android:name
 		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:28:22-77
 application
-ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:30:5-45:19
+ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:30:5-46:19
 MERGED from [com.android.support:design:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2292ba54375be921019de803e2a59311/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2292ba54375be921019de803e2a59311/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/d8996dd75d3335c1347c625e7eb37cdf/AndroidManifest.xml:25:5-29:19
@@ -168,9 +168,13 @@ ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/Sca
 	android:name
 		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:41:27-74
 activity#android.example.com.tflitecamerademo.ResultActivity
-ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:44:9-97
+ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:44:9-88
 	android:name
 		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:44:19-85
+activity#android.example.com.tflitecamerademo.ResultAudioActivity
+ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:45:9-102
+	android:name
+		ADDED from /Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/src/main/AndroidManifest.xml:45:19-90
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/2292ba54375be921019de803e2a59311/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/a.bloshchytska/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/d8996dd75d3335c1347c625e7eb37cdf/AndroidManifest.xml:26:9-28:38
