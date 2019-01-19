@@ -1,10 +1,13 @@
 package android.example.com.tflitecamerademo;
 
 import android.app.Activity;
+import android.content.res.Resources;
 import android.graphics.Typeface;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.annotation.RawRes;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
@@ -46,6 +49,7 @@ public class ResultAudioActivity extends Activity {
         if (extras != null) {
             String storyNameText = extras.getString("STORY_NAME").toUpperCase();
             textViewStoryName.setText(storyNameText);
+            initViews(extras.getString("STORY_NAME"));
         } else {
             textViewStoryName.setText("???");
         }
@@ -57,11 +61,14 @@ public class ResultAudioActivity extends Activity {
             }
         });
 
-        initViews();
     }
 
-    private void initViews() {
-        mediaPlayer = MediaPlayer.create(this, R.raw.bragi);
+    private void initViews(String name) {
+        Resources res = getResources();
+        Log.i("info", name);
+        int soundId = res.getIdentifier(name, "raw", getPackageName());
+        mediaPlayer = MediaPlayer.create(this, soundId);
+
         seekBar = (SeekBar) findViewById(R.id.seekBar);
         seekBar.setMax(mediaPlayer.getDuration());
         seekBar.setOnTouchListener(new View.OnTouchListener() {

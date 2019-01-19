@@ -58,7 +58,6 @@ public class ResultActivity extends Activity {
 
         BufferedReader reader = null;
         String textFromFile = "";
-        //name = "balder";
         String textFileName = "text/" + name + ".txt";
 
         try {

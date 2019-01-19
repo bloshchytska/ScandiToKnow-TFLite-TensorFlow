@@ -5,24 +5,28 @@
     build-mode="COLD"
     density="xxhdpi"
     format="10"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.1.4"
-    timestamp="1547911776883"
+    timestamp="1547912549053"
     token="-9043952070943242479"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="95" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="13" />
     <task
         name="verifier"
-        duration="0" />
+        duration="3" />
 
+    <artifact
+        location="/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
     <artifact
         location="/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
         type="SPLIT_MAIN" />
@@ -70,8 +74,21 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1547911776883"
+        ir-eligibility="METHOD_DELETED"
+        timestamp="1547912384821"
         verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1547912549053"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
         <artifact
             location="/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
