@@ -1,5 +1,7 @@
 balder
+bragi
 forseti
+muspelheim
 nanna
 skadi
 ullr
