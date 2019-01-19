@@ -1,6 +1,6 @@
-baldr
+balder
 forseti
 nanna
 skadi
 ullr
-vidar
+widar
