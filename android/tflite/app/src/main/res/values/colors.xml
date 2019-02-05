@@ -18,7 +18,7 @@
     <color name="control_background">#000</color>
     <color name="control_color">#f2faff</color>
     <color name="error_color">#8F423F</color>
-    <color name="info_color">#b7d0dd</color>
+    <color name="info_color">#c0d6dd</color>
     <color name="main_color">#D7E4EC</color>
     <color name="link_color">#C97054</color>
     <color name="button_color">#235258</color>

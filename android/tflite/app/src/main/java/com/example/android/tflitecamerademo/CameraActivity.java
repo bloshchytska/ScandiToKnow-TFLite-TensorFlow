@@ -23,12 +23,14 @@ import android.os.Bundle;
 public class CameraActivity extends Activity {
 
   public static Typeface sCustomFont;
+  public static Typeface sStoryFont;
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_camera);
 
     sCustomFont = Typeface.createFromAsset(getAssets(), "font/main_font.ttf");
+    sStoryFont = Typeface.createFromAsset(getAssets(), "font/evolve.otf");
 
     if (null == savedInstanceState) {
       getFragmentManager()

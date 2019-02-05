@@ -17,6 +17,11 @@ import android.widget.TextView;
 
 import com.example.android.tflitecamerademo.R;
 
+import java.io.BufferedReader;
+import java.io.IOError;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 import static com.example.android.tflitecamerademo.CameraActivity.sCustomFont;
 
 public class ResultAudioActivity extends Activity {
@@ -44,8 +49,6 @@ public class ResultAudioActivity extends Activity {
         textViewStoryName = (TextView) findViewById(R.id.textViewStoryName);
         textViewStoryName.setTypeface(sCustomFont, Typeface.BOLD);
 
-
-
         if (extras != null) {
             String storyNameText = extras.getString("STORY_NAME").toUpperCase();
             textViewStoryName.setText(storyNameText);
@@ -67,17 +70,24 @@ public class ResultAudioActivity extends Activity {
         Resources res = getResources();
         Log.i("info", name);
         int soundId = res.getIdentifier(name, "raw", getPackageName());
-        mediaPlayer = MediaPlayer.create(this, soundId);
 
-        seekBar = (SeekBar) findViewById(R.id.seekBar);
-        seekBar.setMax(mediaPlayer.getDuration());
-        seekBar.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                seekChange(v);
-                return false;
-            }
-        });
+        Log.i("soundId", Integer.toString(soundId));
+
+        try {
+            mediaPlayer = MediaPlayer.create(this, soundId);
+            seekBar = (SeekBar) findViewById(R.id.seekBar);
+            seekBar.setMax(mediaPlayer.getDuration());
+            seekBar.setOnTouchListener(new View.OnTouchListener() {
+                @Override
+                public boolean onTouch(View v, MotionEvent event) {
+                    seekChange(v);
+                    return false;
+                }
+            });
+        } catch (IOError e) {
+            Log.e("exception", e.getMessage());
+            textViewStoryName.setText("Keine Audio gefunden");
+        }
     }
 
     private void seekChange(View v){

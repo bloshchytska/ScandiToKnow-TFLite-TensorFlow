@@ -12,12 +12,13 @@
         android:layout_height="60dp"
         android:layout_alignParentTop="true"
         android:layout_gravity="center"
-        android:gravity="center">
+        android:background="@color/info_color"
+        android:gravity="center"
+        android:translationZ="1dp">
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/info_color">
+            android:layout_height="match_parent">
 
             <ImageButton
                 android:id="@+id/back"
@@ -64,7 +65,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true">
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/pog">
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
@@ -105,6 +109,14 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.949" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="20dp" />
+
         </android.support.constraint.ConstraintLayout>
     </RelativeLayout>
 

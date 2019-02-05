@@ -17,6 +17,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 import static com.example.android.tflitecamerademo.CameraActivity.sCustomFont;
+import static com.example.android.tflitecamerademo.CameraActivity.sStoryFont;
 
 public class ResultActivity extends Activity {
 
@@ -33,15 +34,33 @@ public class ResultActivity extends Activity {
         storyTextView = (TextView) findViewById(R.id.storyTextView);
         backButton = (ImageButton) findViewById(R.id.back);
         textViewStoryName.setTypeface(sCustomFont, Typeface.BOLD);
-        storyTextView.setTypeface(sCustomFont, Typeface.BOLD);
+        storyTextView.setTypeface(sStoryFont, Typeface.BOLD);
 
         Bundle extras = getIntent().getExtras();
 
         if (extras != null) {
             String storyNameText = extras.getString("STORY_NAME").toUpperCase();
-            String story = readTextFile(extras.getString("STORY_NAME"));
-            storyTextView.setText(story);
+
+            if (extras.getString("STORY_NAME") == "huginundmunin") {
+                storyNameText = "HUGIN UND MUNIN";
+            } else if (extras.getString("STORY_NAME") == "hellaundhellheim") {
+                storyNameText = "HELLA UND HELLHEIM";
+            } else if (extras.getString("STORY_NAME") == "geriundfreki") {
+                storyNameText = "GERI UND FREKI";
+            }
+
+
             textViewStoryName.setText(storyNameText);
+
+            String story = readTextFile(extras.getString("STORY_NAME"));
+
+            storyTextView.setText(story);
+
+            if (story.length() > 0) {
+            } else {
+                storyTextView.setText("Keine Geschichte gefunden");
+            }
+
         } else {
             textViewStoryName.setText("???");
         }
