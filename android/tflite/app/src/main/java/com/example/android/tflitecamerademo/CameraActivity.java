@@ -30,7 +30,7 @@ public class CameraActivity extends Activity {
     setContentView(R.layout.activity_camera);
 
     sCustomFont = Typeface.createFromAsset(getAssets(), "font/main_font.ttf");
-    sStoryFont = Typeface.createFromAsset(getAssets(), "font/evolve.otf");
+    sStoryFont = Typeface.createFromAsset(getAssets(), "font/alewaythin.ttf");
 
     if (null == savedInstanceState) {
       getFragmentManager()
