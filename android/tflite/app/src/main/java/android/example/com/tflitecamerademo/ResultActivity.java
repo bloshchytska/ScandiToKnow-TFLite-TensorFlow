@@ -1,17 +1,12 @@
 package android.example.com.tflitecamerademo;
-
 import android.app.Activity;
-import android.content.Intent;
 import android.graphics.Typeface;
-import android.hardware.camera2.CameraAccessException;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import com.example.android.tflitecamerademo.R;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -73,20 +68,25 @@ public class ResultActivity extends Activity {
         });
     }
 
+
     private String readTextFile(String name) {
 
         BufferedReader reader = null;
         String textFromFile = "";
         String textFileName = "text/" + name + ".txt";
+        StringBuffer sb = new StringBuffer();
 
         try {
             reader = new BufferedReader(
                     new InputStreamReader(getAssets().open(textFileName), "UTF-8"));
 
-            String mLine = "";
+            String mLine;
             while ((mLine = reader.readLine()) != null) {
-                textFromFile += mLine;
+                sb.append(mLine);
+                sb.append("\n");
             }
+            textFromFile = sb.toString();
+            reader.close();
         } catch (IOException e) {
             Log.e("exception", e.getMessage());
         } finally {
@@ -98,6 +98,7 @@ public class ResultActivity extends Activity {
                 }
             }
         }
+
         return textFromFile;
     }
 }

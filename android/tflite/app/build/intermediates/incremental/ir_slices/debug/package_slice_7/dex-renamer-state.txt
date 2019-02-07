@@ -1,4 +1,4 @@
-#Wed Feb 06 08:03:07 CET 2019
+#Thu Feb 07 19:31:12 CET 2019
 base.0=/Users/a.bloshchytska/Documents/development/AndroidStudioProjects/ScandiToKnow-TFLite-TensorFlow/android/tflite/app/build/intermediates/transforms/dexMerger/debug/7
 path.0=classes.dex
 renamed.0=classes.dex

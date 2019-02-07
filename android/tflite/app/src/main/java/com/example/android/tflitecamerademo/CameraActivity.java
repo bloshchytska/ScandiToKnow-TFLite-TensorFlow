@@ -22,15 +22,15 @@ import android.os.Bundle;
 /** Main {@code Activity} class for the Camera app. */
 public class CameraActivity extends Activity {
 
-  public static Typeface sCustomFont;
-  public static Typeface sStoryFont;
+  public static Typeface sCustomFont, sStoryFont;
+
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_camera);
 
     sCustomFont = Typeface.createFromAsset(getAssets(), "font/main_font.ttf");
-    sStoryFont = Typeface.createFromAsset(getAssets(), "font/alewaythin.ttf");
+    sStoryFont = Typeface.createFromAsset(getAssets(), "font/ralewaythin.ttf");
 
     if (null == savedInstanceState) {
       getFragmentManager()
